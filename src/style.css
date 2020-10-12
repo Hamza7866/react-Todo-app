@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main_div {
+  background: rgb(78, 214, 248);
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  height: 100vh;
+}
+h1 {
+  min-height: 5vh;
+  background: transparent;
+  background: #333333;
+  border-radius: 15px;
+  width: 100%;
+  text-align: center;
+  padding: 6px 0px 2px 0px;
+}
+.center_div {
+  background-color: rgb(70, 117, 167);
+  padding: 25px;
+  width: 30%;
+  color: #fff;
+  border-radius: 15px;
+  min-height: 50vh;
+}
+
+input {
+  width: 80%;
+  min-height: 4vh;
+  text-align: center;
+  background-color: rgb(43, 90, 151);
+  color: rgb(235, 235, 235);
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+  background: transparent;
+  border-bottom: 2px solid rgb(22, 77, 102);
+}
+button {
+  cursor: pointer;
+  border-radius: 50%;
+  width: 40px;
+  margin-left: 10px;
+  background: rgba(4, 69, 88, 0.671);
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  outline: none;
+  min-height: 40px;
+  position: fixed;
+}
+
+button:hover {
+  background-color: rgb(27, 58, 90);
+}
+
+li {
+  text-decoration: none;
+  background-color: rgb(9, 32, 61);
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 4px;
+  text-transform: capitalize;
+}
+
+ol {
+  margin: 15px;
+  list-style: none;
+  background: transparent;
+}
+
+.todo_style {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+.todo_style i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: red;
+  border-radius: 50%;
+  margin: 2px;
+  cursor: pointer;
+}
